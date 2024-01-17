@@ -1,0 +1,71 @@
+ul {
+    list-style: none; /* Remove default list-style (bullets) */
+    padding: 0; /* Remove default padding for list */
+  }
+  button {
+    width: 90%;/* Adjust the padding to increase button size */
+    font-size: 8%; /* Adjust the font size to increase button size */
+    gap: 2px;
+  }
+  .choice {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    height: 73vh;  
+}
+  .output{
+    background-color: rgb(0, 0, 0);
+    margin: 10%;
+  }
+  .choice button {
+    background-color: white;
+    align-items: center;
+    position: relative;
+    align-content: center;
+    margin: 7px;  
+}
+.game{
+    display: flex;
+}
+.output {
+    font-size: 3cm;
+    text-align: center;
+    margin-top: 207px;
+    color: white;
+    width: 25cm;
+    margin-left: 40%;
+}
+*{
+    background-color: black;
+}
+.random img {
+     
+    text-align: center;
+    margin-top: 191px;
+    margin-left: 132%;
+    
+     
+}
+.topbar{
+    color: white;
+    text-align: center;
+    font-size: 2cm;
+}
+.scores {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.score-me,
+.score-computer {
+    font-size: 18px;
+    margin: 5px;
+}
+.result{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
